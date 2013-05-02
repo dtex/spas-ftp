@@ -1,0 +1,31 @@
+{
+  "name": "spas-ftp",
+  "description": "Default FTP wrapper for spas",
+  "version": "0.0.1",
+  "author": {
+    "name": "Donovan Buck",
+    "email": "donovan@donovan.bz",
+    "url": "http://dtex.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/dtex/spas-ftp.git"
+  },
+  "keywords": [
+    "spas",
+    "proxy",
+    "cache",
+    "api",
+    "ftp",
+    "json"
+  ],
+  "dependencies": {
+	  "ssh2": "0.2.x",
+	  "async": "0.2.x"
+  },
+  "main": "./api.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "readme": "# spas-ftp\n\nDefault FTP wrapper for spas\n\n## Installation\n\n### Installing spas\n``` bash\n$ [sudo] npm install spas\n```\n\n### Installing spas-http\n``` bash\n$ [sudo] npm install spas-ftp\n```\n\n## Documentation spas-ftp documentation can be found at http://dtex.github.com/spas-ftp\n\n"
+}
